@@ -31,7 +31,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .columna-impar .celda:nth-child(2n+1){
@@ -43,31 +43,31 @@ h1 {
 }
 
 /* Fichas negras */
-.columna-impar:nth-child(1) .celda:nth-child(1):before,
-.columna-par:nth-child(8) .celda:nth-child(1):before {
+.columna-par:nth-child(1) .celda:nth-child(1):before,
+.columna-impar:nth-child(8) .celda:nth-child(1):before {
     content: "\265C";
     z-index: 100;
 }
 
-.columna-par:nth-child(2) .celda:nth-child(1):before,
-.columna-impar:nth-child(7) .celda:nth-child(1):before {
+.columna-impar:nth-child(2) .celda:nth-child(1):before,
+.columna-par:nth-child(7) .celda:nth-child(1):before {
     content: "\265E";
     z-index: 100;
 }
 
-.columna-impar:nth-child(3) .celda:nth-child(1):before,
-.columna-par:nth-child(6) .celda:nth-child(1):before {
+.columna-par:nth-child(3) .celda:nth-child(1):before,
+.columna-impar:nth-child(6) .celda:nth-child(1):before {
     content: "\265D";
     z-index: 100;
 }
 
-.columna-par:nth-child(4) .celda:nth-child(1):before {
-    content: "\265A";
+.columna-impar:nth-child(4) .celda:nth-child(1):before {
+    content: "\265B";
     z-index: 100;
 }
 
-.columna-impar:nth-child(5) .celda:nth-child(1):before {
-    content: "\265B";
+.columna-par:nth-child(5) .celda:nth-child(1):before {
+    content: "\265A";
     z-index: 100;
 }
 
@@ -77,35 +77,39 @@ h1 {
 }
 
 /* Fichas blancas */
-.columna-impar:nth-child(1) .celda:nth-child(8):before,
-.columna-par:nth-child(8) .celda:nth-child(8):before {
+.columna-par:nth-child(1) .celda:nth-child(8):before,
+.columna-impar:nth-child(8) .celda:nth-child(8):before {
     content: "\2656";
     z-index: 100;
 }
 
-.columna-par:nth-child(2) .celda:nth-child(8):before,
-.columna-impar:nth-child(7) .celda:nth-child(8):before {
+.columna-impar:nth-child(2) .celda:nth-child(8):before,
+.columna-par:nth-child(7) .celda:nth-child(8):before {
     content: "\2658";
     z-index: 100;
 }
 
-.columna-impar:nth-child(3) .celda:nth-child(8):before,
-.columna-par:nth-child(6) .celda:nth-child(8):before {
+.columna-par:nth-child(3) .celda:nth-child(8):before,
+.columna-impar:nth-child(6) .celda:nth-child(8):before {
     content: "\2657";
     z-index: 100;
 }
 
-.columna-par:nth-child(4) .celda:nth-child(8):before {
-    content: "\2654";
+.columna-impar:nth-child(4) .celda:nth-child(8):before {
+    content: "\2655";
     z-index: 100;
 }
 
-.columna-impar:nth-child(5) .celda:nth-child(8):before {
-    content: "\2655";
+.columna-par:nth-child(5) .celda:nth-child(8):before {
+    content: "\2654";
     z-index: 100;
 }
 
 .celda:nth-child(7):before {
     content: "\2659";
     z-index: 100;
+}
+
+footer {
+    text-align: center;
 }
